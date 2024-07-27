@@ -18,12 +18,12 @@ return (
             </button>
         </div>
         <div className='content'>
-            <h3>
-                <Image src='/icons/external_link.png' alt='icon' width={16} height={16}/>
+            <a className='title'>
+                <Image src='/icons/external_link.svg' alt='icon' width={16} height={16}/>
                 Металлоконструкций
-            </h3>
-            <a href='#' target="/blank">
-                <Image src='/icons/tag.png' alt='icon' width={16} height={16}/>
+            </a>
+            <a className='price' href='#' target="/blank">
+                <Image src='/icons/tag.svg' alt='icon' width={16} height={16}/>
                 5 000 000 сум
             </a>
         </div>
