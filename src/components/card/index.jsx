@@ -7,25 +7,23 @@ import './card.scss'
 
 const card = ({crs}) => {
 
-    const {card4, card2} = useCardStore();
-  return (
-    
+const {card4, card2} = useCardStore();
+
+return (
     <div className={card4 ? 'maining four' : 'maining binary'}>
         <div className='img_wrapper'>
             <Image src={crs} alt='site' width={308} height={392}/>
+            <button className='demo'>
+                Демоверсия
+            </button>
         </div>
-        <div className='w-full h-[85px]'>
-            <h3 className='text-[15px] leading-[18px] mt-5 mb-5'>
-                Сайт металлоконструкций, ангаров
+        <div className='content'>
+            <h3>
+                Металлоконструкций
             </h3>
-            <div className=''>
-                <a href='#' target="/blank" className='text-[13px] leading-[15px] bg-pink-light text-pink py-[10px] rounded hover:opacity-70 px-5 mr-5'>
-                    Демоверсия
-                </a>
-                <button className='text-[15px] leading-[18px]'>
-                    3 600 000 сум
-                </button>
-            </div>
+            <a href='#' target="/blank">
+                5 000 000 сум
+            </a>
         </div>
     </div>
   )
