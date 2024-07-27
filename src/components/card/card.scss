@@ -1,0 +1,37 @@
+.maining {
+    margin-top: 16px;
+}
+
+.four {
+    width: 308px;
+    height: 477px;
+    .img_wrapper {
+        width: 308px;
+        height: 392px;
+    }
+}
+
+.binary {
+    width: 632px;
+    height: 477px;
+    .img_wrapper {
+        width: 632px;
+        height: 392px;
+        overflow: hidden;
+        img {
+            width: 100%;
+            transform: translateY(0);
+            transition: transform 3s;
+            &:hover {
+                // animation: slideDown 4s ease-out;
+                transform: translateY(-52%);
+            }
+        }
+    }
+}
+
+
+@keyframes slideDown {
+    from { bottom: 200px; opacity: 0; }
+    to { bottom: 300px; opacity: 1; }
+}

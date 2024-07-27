@@ -7,11 +7,11 @@ const index = () => {
 
   return (
     <section className='container flex items-center justify-between'>
-        <div className='flex w-[308px] p-5 border border-lines rounded items-center justify-between'>
+        <div className='bg-white flex w-[308px] p-5 border border-lines rounded items-center justify-between'>
             <h3 className="text-[13px] leading-[15px]">
                 Сортировка по:
             </h3>
-            <select className="text-pink text-[13px] leading-[15px] pr-[40px]" name="sort" id="sort">
+            <select className="bg-inherit text-pink text-[13px] leading-[15px] pr-[40px]" name="sort" id="sort">
                 <option value="All">Не выбрана</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -21,7 +21,7 @@ const index = () => {
         <div>
             <input className='w-[632px] p-5 text-[13px] leading-[15px] border border-lines rounded pl-[43px]' type="text" placeholder='Например: Визитечная сайт для строительные компании'/>
         </div>
-        <div className='flex justify-between items-center w-[308px] select-none p-[3px] border border-lines rounded text-[13px] leading-[15px]'>
+        <div className='bg-white flex justify-between items-center w-[308px] select-none p-[3px] border border-lines rounded text-[13px] leading-[15px]'>
             {
                 card4 ? 
                 <button 
