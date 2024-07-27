@@ -7,7 +7,7 @@ const index = () => {
 
   return (
     <section className='container flex items-center justify-between'>
-        <div className='bg-white flex w-[308px] p-5 border border-lines rounded items-center justify-between'>
+        <div className='h-[56px] bg-white flex w-[308px] p-5 border border-lines rounded items-center justify-between'>
             <h3 className="text-[13px] leading-[15px]">
                 Сортировка по:
             </h3>
@@ -18,10 +18,10 @@ const index = () => {
                 <option value="3">3</option>
             </select>
         </div>
-        <div>
+        <div className='h-[56px]'>
             <input className='w-[632px] p-5 text-[13px] leading-[15px] border border-lines rounded pl-[43px]' type="text" placeholder='Например: Визитечная сайт для строительные компании'/>
         </div>
-        <div className='bg-white flex justify-between items-center w-[308px] select-none p-[3px] border border-lines rounded text-[13px] leading-[15px]'>
+        <div className='h-[56px] bg-white flex justify-between items-center w-[308px] select-none p-[3px] border border-lines rounded text-[13px] leading-[15px]'>
             {
                 card4 ? 
                 <button 
