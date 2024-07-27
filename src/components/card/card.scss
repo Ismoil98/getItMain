@@ -22,35 +22,28 @@
         width: 256px;
         height: 75px;
         h3 {
+            position: relative;
             width: 163px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            font-size: 115px;
-            line-height: 18;
+            font-size: 15px;
+            line-height: 18px;
             margin-top: 12px;
             margin-bottom: 8px;
-            ::after {
-                content: '';
-                background-image: url('../../../public/icons/external-link.png');
-                width: 16px;
-                height: 16px;
+            img {
                 margin-right: 3px;
             }
         }
         a {
-            width: 117px;
+            width: 113px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             font-size: 13px;
             line-height: 15px;
             color: #A378FF;
-            ::after {
-                content: '';
-                background-image: url('../../../public/icons/tag.png');
-                width: 16px;
-                height: 16px;
+            img {
                 margin-right: 3px;
             }
         }

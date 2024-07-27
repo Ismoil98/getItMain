@@ -1,8 +1,8 @@
 import { create } from "zustand";
 
 export const useCardStore = create((set) => ({
-    card4: true,
-    card2: false,
+    card4: false,
+    card2: true,
     onChangeCards4: () => {
       set((state)=> ({
         ...state,
