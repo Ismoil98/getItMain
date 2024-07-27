@@ -23,15 +23,9 @@
             transform: translateY(0);
             transition: transform 3s;
             &:hover {
-                // animation: slideDown 4s ease-out;
                 transform: translateY(-52%);
+                cursor: pointer;
             }
         }
     }
-}
-
-
-@keyframes slideDown {
-    from { bottom: 200px; opacity: 0; }
-    to { bottom: 300px; opacity: 1; }
 }
