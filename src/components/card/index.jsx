@@ -4,7 +4,6 @@ import {useCardStore} from '../store/CardStore'
 import Image from 'next/image'
 import React from 'react'
 import './card.scss'
-import Link from 'next/link'
 
 const card = ({item}) => {
 

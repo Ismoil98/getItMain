@@ -13,7 +13,7 @@ const optionStyle = {
 
 const index = () => {
   return (
-    <header className='font-sans select-none flex items-center justify-between mx-auto mb-[7px] bg-white p-1 max-w-[1680px] mt-[10px] rounded-custom border-[1px] border-lines px-10'>
+    <header className='font-sans select-none flex items-center justify-between mx-auto mb-[7px] bg-white p-1 max-w-[1680px] mt-[10px] rounded-custom border-[1px] border-lines pl-10 pr-5'>
       <Link href="/">
         <Image src="/GetIt_header.svg" alt="logo site" width={60} height={30}/>
       </Link>

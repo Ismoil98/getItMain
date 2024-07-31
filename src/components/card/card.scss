@@ -56,23 +56,26 @@
         width: 100%;
         height: 392px;
         overflow: hidden;
+        img {
+            width: 100%;
+        }
     }
 }
 
 .binary {
     width: 49%;
-    height: 477px;
+    height: 677px;
     animation: slideDown 3s ease-out;
     .img_wrapper {
         width: 100%;
-        height: 392px;
+        height: 82%;
         overflow: hidden;
         img {
             width: 100%;
             transform: translateY(0);
-            transition: transform 3s ease-in-out;
+            transition: transform 4s ease-in;
             &:hover {
-                transform: translateY(-45%);
+                transform: translateY(-76%);
                 cursor: pointer;
             }
         }
