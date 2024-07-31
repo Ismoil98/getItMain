@@ -13,17 +13,17 @@ const optionStyle = {
 
 const index = () => {
   return (
-    <header className='font-sans select-none flex items-center justify-between mx-auto mb-[7px] bg-white p-1 max-w-[1424px] mt-[10px] rounded-custom border-[1px] border-lines'>
+    <header className='font-sans select-none flex items-center justify-between mx-auto mb-[7px] bg-white p-1 max-w-[1680px] mt-[10px] rounded-custom border-[1px] border-lines px-10'>
       <Link href="/">
         <Image src="/GetIt_header.svg" alt="logo site" width={60} height={30}/>
       </Link>
       <div className='flex gap-6'>
         <Link className='text-pink transition duration-300 ease-out hover:opacity-70' href='/'>Все сайты</Link>
-        <Link className='transition duration-300 ease-out hover:opacity-70' href='/Корпоротивные'>Корпоротивные</Link>
-        <Link className='transition duration-300 ease-out hover:opacity-70' href='/Бизнес'>Бизнес</Link>
-        <Link className='transition duration-300 ease-out hover:opacity-70' href='/Интернет-магазины'>Интернет-магазины</Link>
-        <Link className='transition duration-300 ease-out hover:opacity-70' href='/Каталог-товаров'>Каталог товаров</Link>
-        <Link className='transition duration-300 ease-out hover:opacity-70' href='/Лендинги'>Лендинги</Link>
+        <Link className='transition duration-300 ease-out hover:opacity-70' href='/categories/Корпоротивные'>Корпоротивные</Link>
+        <Link className='transition duration-300 ease-out hover:opacity-70' href='/categories/Бизнес'>Бизнес</Link>
+        <Link className='transition duration-300 ease-out hover:opacity-70' href='/categories/Интернет-магазины'>Интернет-магазины</Link>
+        <Link className='transition duration-300 ease-out hover:opacity-70' href='/categories/Каталог-товаров'>Каталог товаров</Link>
+        <Link className='transition duration-300 ease-out hover:opacity-70' href='/categories/Лендинги'>Лендинги</Link>
       </div>
       <div>
         <select style={customSelectStyle} className='appearance-none' name="language" id="language">

@@ -5,7 +5,7 @@ import Filter from '../filter'
 
 const index = () => {
   return (
-    <section className='mx-auto w-[1424px] border rounded border-lines text-center pb-4 pt-14 bg-white'>
+    <section className='mx-auto w-[1680px] border rounded border-lines text-center pb-4 pt-14 bg-white'>
         <h1 className='font-sans mx-auto w-[583px] text-[40px] leading-[50px] mb-8'>
             Ваш  бизнес  заслуживает лучшего — Создайте идеальный 
             <div className='relative'>

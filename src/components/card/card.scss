@@ -24,10 +24,9 @@
         .title {
             cursor: pointer;
             position: relative;
-            width: 163px;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: start;
             font-size: 15px;
             line-height: 18px;
             margin-top: 12px;
@@ -37,10 +36,9 @@
             }
         }
         .price {
-            width: 113px;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: start;
             font-size: 13px;
             line-height: 15px;
             color: #A378FF;
@@ -52,30 +50,36 @@
 }
 
 .four {
-    width: 308px;
+    width: 24%;
     height: 477px;
     .img_wrapper {
-        width: 308px;
+        width: 100%;
         height: 392px;
         overflow: hidden;
     }
 }
 
 .binary {
-    width: 632px;
+    width: 49%;
     height: 477px;
+    animation: slideDown 3s ease-out;
     .img_wrapper {
-        width: 632px;
+        width: 100%;
         height: 392px;
         overflow: hidden;
         img {
             width: 100%;
             transform: translateY(0);
-            transition: transform 2s;
+            transition: transform 3s ease-in-out;
             &:hover {
-                transform: translateY(-52%);
+                transform: translateY(-45%);
                 cursor: pointer;
             }
         }
     }
+}
+
+@keyframes slideDown {
+    from { top: 300px; opacity: 0; }
+    to { top: 0px; opacity: 1; }
 }
