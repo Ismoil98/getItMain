@@ -13,6 +13,7 @@
             color: white;
             width: 100%;
             transition: all 0.9s ease-out;
+
         }
         &:hover .demo{
             display: block;
@@ -52,6 +53,7 @@
 .four {
     width: 24%;
     height: 477px;
+    animation: slideDowne 3s ease-out;
     .img_wrapper {
         width: 100%;
         height: 392px;
@@ -83,6 +85,11 @@
 }
 
 @keyframes slideDown {
+    from { top: 300px; opacity: 0; }
+    to { top: 0px; opacity: 1; }
+}
+
+@keyframes slideDowne {
     from { top: 300px; opacity: 0; }
     to { top: 0px; opacity: 1; }
 }

@@ -31,9 +31,9 @@ const index = () => {
           <option  style={optionStyle} value="UZ">UZ</option>
           <option  style={optionStyle} value="EN">EN</option>
         </select>
-        <button className='bg-pink transition duration-300 ease-out hover:opacity-70 text-white py-[14px] px-[24px] rounded ml-[18px]'>
+        <a className='bg-pink transition duration-300 ease-out hover:opacity-70 text-white py-[14px] px-[24px] rounded ml-[18px]' href='https://t.me/Getter_CEO' target="_blank">
           Заказать сайт
-        </button>
+        </a>
       </div>
     </header>
   )

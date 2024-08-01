@@ -13,3 +13,44 @@ const page = () => {
 }
 
 export default page
+
+// {
+//   "title": "",
+//   "media": [
+//     "",
+//     ""
+//   ],
+//   "link": "",
+//   "description": "",
+//   "shortDescription": "",
+//   "licensedPrice": "",
+//   "regularPrice": "",
+//   "fifthText": "",
+//   "technologies": [
+//     {
+//       "id": "",
+//       "title": ""
+//     }
+//   ],
+//   "directions": [
+//     {
+//       "id": "",
+//       "title": ""
+//     }
+//   ],
+//   "developers": [
+//     {
+//       "id": "",
+//       "firstName": "",
+//       "lastName": "",
+//       "avatar": ""
+//     }
+//   ],
+//   "categories": [
+//     {
+//       "id": "",
+//       "title": "",
+//       "type": ""
+//     }
+//   ]
+// }

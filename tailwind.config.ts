@@ -25,6 +25,12 @@ const config: Config = {
         btnBg3: {
           DEFAULT: '#F7FBFC'
         },
+        technalogies: {
+          DEFAULT: '#6900FF'
+        },
+        yellowes: {
+          DEFAULT: '#FDE049'
+        }
         // Add more custom colors here
       },
       borderRadius: {

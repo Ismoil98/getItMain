@@ -13,7 +13,7 @@ return (
     <section className={card4 ? 'maining four' : 'maining binary'}>
         <div className='img_wrapper'>
             <Image src={`https://cdn.getter.uz/api/v1/media/${item.media[0]}/open`} alt='site' width={308} height={392}/>
-            <a href='#' target='_blank' className='demo'>
+            <a href={item.link} target='_blank' className='demo'>
                 Демоверсия
             </a>
         </div>
