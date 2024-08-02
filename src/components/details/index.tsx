@@ -50,7 +50,7 @@ const Details: FC<DetailsProps> = ({ product }) => {
   return (
     <>
       <TopNavbar />
-      <section className='container flex justify-between'>
+      <section className='container flex justify-between px-[100px]'>
         <Info product={product} />
         <Pay  product={product} />
       </section>

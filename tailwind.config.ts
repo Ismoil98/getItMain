@@ -8,13 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'custom': '-30px 34px 54px 0px rgba(4, 20, 43, 0.09)',
+      },
       colors: {
         pink: {
           light: "rgba(163, 120, 255, 0.1)",
           DEFAULT: '#A378FF'
         },
         lines: {
-          DEFAULT: '#E6ECEE'
+          light: '#f5f0ff',
+          DEFAULT: '#E6ECEE',
+          secondary: '#F7FBFC'
         },
         btnBg: {
           DEFAULT: '#171717'

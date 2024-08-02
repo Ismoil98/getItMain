@@ -65,7 +65,7 @@ const Pay: FC<DetailsProps> = ({ product }) => {
   return (
     <>
       <section className=''>
-        <div className='flex items-center'>
+        <div className='ml-8 flex items-center'>
           <button className='flex items-center mr-[27px]'>
             <IoMdHeartEmpty className='mr-1'/>
             Избранные
@@ -74,7 +74,7 @@ const Pay: FC<DetailsProps> = ({ product }) => {
             Заказать этот сайт
           </a>
         </div>
-        <div className='w-[342px] h-[756px] border border-lines mt-[18px] px-5 pt-[35px]'>
+        <div className='bg-white w-[392px] h-[756px] border border-lines rounded-lg mt-[18px] px-5 pt-[35px]'>
          <div className='mb-2 font-medium text-[16px] leading-[19px] '>
           <h3>
             {product.categories[0].title}
@@ -83,7 +83,7 @@ const Pay: FC<DetailsProps> = ({ product }) => {
             {product.title}
           </h3>
          </div>
-         <div className='rounded bg-lines overflow-hidden'>
+         <div className='rounded bg-lines-secondary overflow-hidden'>
           <span className='pt-[14px] pr-[22px] pb-[10px] pl-[15px] flex items-center justify-between'>
             <p className='text-[13px] leading-[15px]'>Цена (одноразовый):</p>
             <p>{product.licensedPrice} сум</p>
@@ -96,11 +96,11 @@ const Pay: FC<DetailsProps> = ({ product }) => {
             <h2 className='mb-[15px] font-medium text-[16px] leading-[19px]'>
               Способы оплаты
             </h2>
-            <span className='flex items-center justify-between'>
-              <span className='bg-lines rounded py-[13px] px-[17px]'>
+            <span className='flex items-center justify-center'>
+              <span className='bg-lines-secondary rounded py-[13px] px-[17px] mr-[6px]'>
                 <Image width={100} height={44} src="/payme.png" alt="" />
               </span>
-              <span className='bg-lines rounded py-[13px] px-[17px]'>
+              <span className='bg-lines-secondary rounded py-[13px] px-[17px]'>
                 <Image width={100} height={44} src="/uzum.png" alt="" />
               </span>
             </span>
