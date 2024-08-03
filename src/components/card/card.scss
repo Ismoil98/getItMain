@@ -20,7 +20,7 @@
         }
     }
     .content {
-        width: 256px;
+        width: 456px;
         height: 75px;
         .title {
             cursor: pointer;
@@ -76,7 +76,7 @@
         img {
             width: 100%;
             transform: translateY(0);
-            transition: transform 4s ease-in;
+            transition: transform 7s ease-in;
             &:hover {
                 transform: translateY(-76%);
                 cursor: pointer;

@@ -3,6 +3,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Card from '../card';
+import { useCardStore } from '../store/CardStore';
 
 const Index = () => {
     const [products, setProducts] = useState([]);
@@ -29,9 +30,11 @@ const Index = () => {
         fetchData();
     }, []);
 
+    const {card4} = useCardStore();
+
     return (
         <section className='container mt-4 gap-4'>
-            <div className='flex justify-between gap-4 flex-wrap mb-[86px]'>
+            <div className={card4 ? 'flex justify-center gap-4 flex-wrap mb-[86px]' : 'flex justify-between gap-4 flex-wrap mb-[86px]'}>
                 { 
                 loading ? 
                 <>                
@@ -51,7 +54,7 @@ const Index = () => {
                         )
                     })
                 ) : (
-                    <p>No products available.</p>
+                    <p className='text-5xl container'>No products available.</p>
                 )}
             </div>
             <button className='w-full bg-white p-[15px] border border-lines rounded'>

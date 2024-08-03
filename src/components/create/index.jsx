@@ -3,7 +3,7 @@ import React from 'react'
 const index = () => {
   return (
     <section className='container flex justify-between mt-20'>
-        <div className='w-[848px] mr-4 pt-[80px] pl-[80px] pr-[185px] pb-[114px] border border-lines rounded bg-white'>
+        <div className='w-[948px] mr-4 pt-[80px] pl-[80px] pr-[185px] pb-[114px] border border-lines rounded bg-white'>
             <h2 className='text-[40px] leading-[50px] mb-[60px]'>
                 Ваш  бизнес  заслуживает 
                 <br />
@@ -13,7 +13,7 @@ const index = () => {
                 Зарегистрироватся как разработчик
             </button>
         </div>
-        <div className='w-[416px] border border-lines rounded bg-white pt-20 pl-[54px]'>
+        <div className='w-[516px] border border-lines rounded bg-white pt-20 pl-[54px]'>
             <h2 className='font-normal w-[332px] text-[22px] leading-[26px] mb-[132px]'>
                 Ваш  бизнес  заслуживает лучшего — Создайте идеальный сайт   с нами!
             </h2>

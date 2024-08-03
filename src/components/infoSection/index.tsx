@@ -65,7 +65,7 @@ const Info: FC<DetailsProps> = ({ product }) => {
         <div className='w-[900px] relative h-[480px] mb-[67px] mt-[26px]'>
           <Image className='absolute top-10 rounded-lg right-0 shadow-custom shadow-lines-light h-[490px] w-[265px] object-cover' width={265} height={490} src={`https://cdn.getter.uz/api/v1/media/${product.media[0]}/open`} alt="" />
           <div className='w-[100%] h-[100%] overflow-hidden'>
-            <Image className='' width={800} height={490} src={`https://cdn.getter.uz/api/v1/media/${product.media[0]}/open`} alt="" />
+            <Image className='' width={800} height={490} src={`https://cdn.getter.uz/api/v1/media/${product.media[0]}/open`} alt="image" />
           </div>
         </div>
           <h2 className='text-[16px] leading-[19px] font-medium	 mb-[15px]'>
